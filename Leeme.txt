@@ -1,0 +1,23 @@
+instalar los paquetes de node modules:
+npm install
+
+comando para ejecutar la app web:
+npm run web
+
+comando para ejecutar la app movil:
+npm start
+
+Comando para ejecutar la API:
+npm run server
+
+Dentro de la carpeta src/components/views es donde se crearán las vistas de la aplicación, por cada vista crear su carpeta. seguir la estructura siguiente:
+-home(carpeta)
+---Home.js
+---HomeView.js
+---HomeView.native.js
+---Home.css(si es necesario)
+
+Dentro de Home.js se debe importar HomeView sin especificar el archivo, debido a que React Native sabe que archivos usar en cada caso (web y movil). 
+ejemplo:
+import HomeView from './HomeView';
+

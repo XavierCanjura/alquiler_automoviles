@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+    margin-top: 15px;
+    color: #F7B661;
+}
+
+.containerButton{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.containerButton button{
+    background: #F7B661;
+    border-color: #F7B661;
+}
+
+.containerButton button:hover{
+    background: #F7B661F0;
+    border-color: #F7B661;
+}
